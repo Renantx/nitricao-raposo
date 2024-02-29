@@ -1,0 +1,53 @@
+// Definição das cores
+$cor-fundo-navbar: #F89B44
+$cor-botao: #F99D43
+$cor-botao-hover: #F9D5C5
+$cor-texto: #6096B4
+
+//#F89B44 Laranja claro
+//#6096B4 Cinza
+//#F99D43 Laranja mais escuro mas nao tao escuro
+//#F9D5C5 Bege
+//#80F6E4
+
+.navbar
+  position: fixed
+  top:0
+  left:0
+  width:100%
+  z-index: 1000
+  height: 60px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  background-color: $cor-fundo-navbar
+  color: $cor-texto
+  padding: 10px
+
+.navbar-content
+  display: flex
+  justify-content: space-between
+  align-items: center
+  width: 100%
+
+.title
+  margin-left: 20px
+  display: flex
+  align-items: center
+
+h2
+  font-size: 38px
+
+.nav-buttons button
+  margin-right: 20px
+  background-color: $cor-fundo-navbar
+  color: $cor-texto
+  padding: 10px 24px
+  border: none
+  cursor: pointer
+  border-radius: 15px
+  font-weight: bold
+  font-size: 16px
+
+  &:hover
+    background-color: $cor-botao-hover
